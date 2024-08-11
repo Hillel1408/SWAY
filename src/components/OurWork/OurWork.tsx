@@ -61,7 +61,7 @@ export default function OurWork() {
 
   return (
     <div className="_container py-[130px]">
-      <h2 className="font-bold text-[36px] text-center leading-[44px] text-black mb-[73px]">
+      <h2 className="font-bold text-[36px] text-center leading-[44px] text-black mb-[73px] uppercase">
         Our work
       </h2>
       <div ref={sliderRef} className="keen-slider">
