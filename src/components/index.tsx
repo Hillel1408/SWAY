@@ -10,16 +10,4 @@ import Process from "@/components/Process/Process";
 import Guarantee from "@/components/Guarantee/Guarantee";
 import Connect from "@/components/Connect/Connect";
 
-export {
-  Header,
-  Footer,
-  Button,
-  Intro,
-  OurWork,
-  Note,
-  AboutUs,
-  ReachMax,
-  Process,
-  Guarantee,
-  Connect,
-};
+export { Header, Footer, Button, Intro, OurWork, Note, AboutUs, ReachMax, Process, Guarantee, Connect };

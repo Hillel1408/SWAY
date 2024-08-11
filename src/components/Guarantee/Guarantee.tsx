@@ -1,3 +1,3 @@
 export default function Guarantee() {
-  return <div>Guarantee</div>;
+    return <div>Guarantee</div>;
 }
