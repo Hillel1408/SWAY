@@ -7,6 +7,8 @@ import Note from "@/components/Note/Note";
 import AboutUs from "@/components/AboutUs/AboutUs";
 import ReachMax from "@/components/ReachMax/ReachMax";
 import Process from "@/components/Process/Process";
+import Guarantee from "@/components/Guarantee/Guarantee";
+import Connect from "@/components/Connect/Connect";
 
 export {
   Header,
@@ -18,4 +20,6 @@ export {
   AboutUs,
   ReachMax,
   Process,
+  Guarantee,
+  Connect,
 };
