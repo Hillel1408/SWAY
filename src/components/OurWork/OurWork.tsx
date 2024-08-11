@@ -77,7 +77,7 @@ export default function OurWork() {
             </div>
             <div className="px-6 pb-6 border-x border-x-black border-b border-b-black">
               <div className="flex gap-3 items-end">
-                <div className="bg-black px-[55px] py-[28px]">
+                <div className="bg-black min-w-[208px] py-[28px] flex justify-center">
                   <img src={`img/${item.logo}`} alt="" />
                 </div>
                 <h3 className="pb-3 uppercase font-bold text-[15px] leading-[18px] text-black">
