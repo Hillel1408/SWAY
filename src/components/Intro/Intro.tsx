@@ -10,7 +10,7 @@ export default function Intro() {
             A MARKETING AGENCY
           </h1>
           <p className="text-[16px] leading-[19px] text-[#797979] mb-[18px]">
-            Were not just another influencer marketing agency. Were a team of
+            We’re not just another influencer marketing agency. We’re a team of
             passionate creators, strategists, and innovators dedicated to
             redefining the way brands connect with their audiences.
           </p>
