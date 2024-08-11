@@ -1,4 +1,4 @@
-import { Intro, OurWork, Note, AboutUs } from "@/components";
+import { Intro, OurWork, Note, AboutUs, ReachMax } from "@/components";
 
 export default function Home() {
   return (
@@ -7,6 +7,7 @@ export default function Home() {
       <OurWork />
       <Note />
       <AboutUs />
+      <ReachMax />
     </main>
   );
 }

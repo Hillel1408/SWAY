@@ -5,5 +5,6 @@ import Intro from "@/components/Intro/Intro";
 import OurWork from "@/components/OurWork/OurWork";
 import Note from "@/components/Note/Note";
 import AboutUs from "@/components/AboutUs/AboutUs";
+import ReachMax from "@/components/ReachMax/ReachMax";
 
-export { Header, Footer, Button, Intro, OurWork, Note, AboutUs };
+export { Header, Footer, Button, Intro, OurWork, Note, AboutUs, ReachMax };
