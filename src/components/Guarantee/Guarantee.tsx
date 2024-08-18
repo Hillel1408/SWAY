@@ -4,7 +4,7 @@ export default function Guarantee() {
             <div className="pl-[98px] grid grid-cols-[1.2fr_1fr]">
                 <div>
                     <h2 className="font-bold text-[36px] leading-[44px] text-black uppercase mb-[9px]">GUARANTEE</h2>
-                    <p className="font-bold text-[22px] leading-[27px] text-[#797979] mb-[17px]">A GAME-CHANGER</p>
+                    <p className="font-bold text-[22px] leading-[27px] text-[#797979] mb-[20px]">A GAME-CHANGER</p>
                     <p className="text-[20px] leading-[24px] text-black mb-[38px]">Tired of Empty Promises?</p>
                     <div className="pr-[74px]">
                         <p className="text-[20px] leading-[24px] text-[#797979]">
@@ -23,7 +23,13 @@ export default function Guarantee() {
                         It’s that simple.
                     </div>
                 </div>
-                <div></div>
+                <div className="flex items-end relative">
+                    <img src="img/img-8.png" alt="" className="w-full" />
+                    <img src="img/img-9.png" alt="" className="absolute top-[108px] -left-[30px]" />
+                    <div className="w-[178px] h-[178px] absolute top-0 right-0 bg-black p-[45px]">
+                        <div className="border border-white h-full"></div>
+                    </div>
+                </div>
             </div>
         </div>
     );

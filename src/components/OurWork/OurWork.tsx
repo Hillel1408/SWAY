@@ -71,7 +71,7 @@ export default function OurWork() {
 
     return (
         <div className="_container py-[130px]">
-            <h2 className="font-bold text-[36px] text-center leading-[44px] text-black mb-[73px] uppercase">Our work</h2>
+            <h2 className="font-bold text-[36px] text-center leading-[44px] text-black mb-[23px] uppercase">Our work</h2>
             {loaded && instanceRef.current && (
                 <div className="dots mb-[36px] flex gap-[11px]">
                     {[...Array(instanceRef.current.track.details.slides.length - 1).keys()].map((idx) => {

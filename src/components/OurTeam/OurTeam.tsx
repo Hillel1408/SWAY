@@ -83,8 +83,8 @@ export default function OurTeam() {
                 <div ref={sliderRef} className="keen-slider !overflow-visible">
                     {slides.map((item, index) => (
                         <div key={index} className="keen-slider__slide">
-                            <div className="pt-[176px] bg-[#C4C4C4]">
-                                <div className="absolute top-0 bottom-0 left-0 right-0">
+                            <div className="pt-[176px] pb-[45px]">
+                                <div className="absolute top-0 bottom-0 left-0 right-0 h-[calc(100%-45px)]">
                                     <img src={`img/${item.image}`} alt="" className="object-cover h-full" />
                                 </div>
                                 <div className="bg-black py-[45px] px-[30px] mx-[30px] translate-y-[36px] flex flex-col gap-[3px]">
