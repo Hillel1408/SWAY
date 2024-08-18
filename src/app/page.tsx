@@ -1,4 +1,4 @@
-import { Intro, OurWork, Note, AboutUs, ReachMax, Process, Connect } from "@/components";
+import { Intro, OurWork, Note, AboutUs, ReachMax, Process, Connect, OurTeam, Marketing, Guarantee } from "@/components";
 
 export default function Home() {
     return (
@@ -9,6 +9,9 @@ export default function Home() {
             <AboutUs />
             <ReachMax />
             <Process />
+            <Guarantee />
+            <Marketing />
+            <OurTeam />
             <Connect />
         </main>
     );

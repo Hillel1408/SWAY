@@ -1,15 +1,25 @@
 "use client";
 
+import React, { useState } from "react";
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
+import classNames from "classnames";
 
 export default function OurWork() {
+    const [loaded, setLoaded] = useState(false);
+    const [currentSlide, setCurrentSlide] = React.useState(0);
     const [sliderRef, instanceRef] = useKeenSlider({
         slides: {
             perView: 2,
             spacing: 70,
         },
         breakpoints: {},
+        slideChanged(slider) {
+            setCurrentSlide(slider.track.details.rel);
+        },
+        created() {
+            setLoaded(true);
+        },
     });
 
     const slides = [
@@ -62,6 +72,21 @@ export default function OurWork() {
     return (
         <div className="_container py-[130px]">
             <h2 className="font-bold text-[36px] text-center leading-[44px] text-black mb-[73px] uppercase">Our work</h2>
+            {loaded && instanceRef.current && (
+                <div className="dots mb-[36px] flex gap-[11px]">
+                    {[...Array(instanceRef.current.track.details.slides.length - 1).keys()].map((idx) => {
+                        return (
+                            <button
+                                key={idx}
+                                onClick={() => {
+                                    instanceRef.current?.moveToIdx(idx);
+                                }}
+                                className={classNames(currentSlide === idx ? "bg-black" : "", "w-[11px] h-[11px] border border-black rounded-full")}
+                            ></button>
+                        );
+                    })}
+                </div>
+            )}
             <div ref={sliderRef} className="keen-slider">
                 {slides.map((item, index) => (
                     <div key={index} className="keen-slider__slide">
