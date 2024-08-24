@@ -4,9 +4,9 @@ export default function Home() {
     return (
         <main className="">
             {/* <Intro />
-            <OurWork />
+            <OurWork /> */}
             <Note />
-            <AboutUs /> */}
+            {/* <AboutUs /> */}
             <ReachMax />
             <Process />
             <Guarantee />
