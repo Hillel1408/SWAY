@@ -8,8 +8,8 @@ export default function Home() {
             <Note />
             <AboutUs />
             <ReachMax />
-            <Process />
-            <Guarantee /> */}
+            <Process /> */}
+            <Guarantee />
             <Marketing />
             <OurTeam />
             <Connect />

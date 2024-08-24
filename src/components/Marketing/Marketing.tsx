@@ -70,7 +70,7 @@ export default function Marketing() {
                         MARKETING REPORTS TO EQUIP YOUR TEAM <br /> WITH THE MOST RELEVANT INSIGHTS
                     </h2>
                     {loaded && instanceRef.current && (
-                        <div className="dots mb-[36px] flex gap-[11px] sm:justify-center sm:mb-0">
+                        <div className="dots mb-[36px] flex gap-[11px] sm:justify-center">
                             {[...Array(instanceRef.current.track.details.slides.length - 2).keys()].map((idx) => {
                                 return (
                                     <button
