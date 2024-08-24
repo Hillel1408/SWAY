@@ -9,8 +9,8 @@ export default function Home() {
             <AboutUs />
             <ReachMax />
             <Process />
-            <Guarantee />
-            <Marketing /> */}
+            <Guarantee /> */}
+            <Marketing />
             <OurTeam />
             <Connect />
         </main>

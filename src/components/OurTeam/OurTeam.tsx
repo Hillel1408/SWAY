@@ -75,12 +75,12 @@ export default function OurTeam() {
     ];
 
     return (
-        <div className="overflow-hidden mt-[130px] md:mt-[74px]">
+        <div className="overflow-hidden mt-[130px] md:mt-[74px] sm:mt-0">
             <div className="_container pb-[127px] md:pb-[74px]">
                 <h2 className="font-bold text-[36px] leading-[44px] text-black mb-[58px] uppercase sm:text-center sm:text-[30px] sm:mb-[22px]">OUR TEAM</h2>
                 <div className="sm:flex sm:flex-col-reverse sm:gap-6">
                     {loaded && instanceRef.current && (
-                        <div className="dots mb-[36px] flex gap-[11px] sm:justify-center">
+                        <div className="dots mb-[36px] flex gap-[11px] sm:justify-center sm:mb-0">
                             {[...Array(instanceRef.current.track.details.slides.length - 2).keys()].map((idx) => {
                                 return (
                                     <button
