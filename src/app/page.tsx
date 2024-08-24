@@ -11,8 +11,8 @@ export default function Home() {
             <Process />
             <Guarantee />
             <Marketing />
-            <OurTeam />
-            <Connect /> */}
+            <OurTeam /> */}
+            <Connect />
         </main>
     );
 }
