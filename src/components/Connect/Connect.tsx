@@ -12,7 +12,7 @@ export default function Connect() {
                 </p>
                 <img src="img/img-7.png" alt="" className="sm:hidden" />
             </div>
-            <div className="bg-black px-[47px] pt-[62px] sm:pt-[27px] sm:pl-[24px] sm:pr-10">
+            <div className="bg-black px-[47px] pt-[62px] sm:pt-[27px] sm:pl-[24px] sm:pr-[24px]">
                 <form action="#">
                     <div className="grid grid-cols-2 gap-[36px] sm:grid-cols-1 sm:gap-5">
                         <input

@@ -6,8 +6,8 @@ export default function Home() {
             {/* <Intro />
             <OurWork />
             <Note />
-            <AboutUs />
-            <ReachMax /> */}
+            <AboutUs /> */}
+            <ReachMax />
             <Process />
             <Guarantee />
             <Marketing />
