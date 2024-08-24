@@ -3,8 +3,8 @@ import { Intro, OurWork, Note, AboutUs, ReachMax, Process, Connect, OurTeam, Mar
 export default function Home() {
     return (
         <main className="">
-            {/* <Intro />
-            <OurWork /> */}
+            {/* <Intro /> */}
+            <OurWork />
             <Note />
             <AboutUs />
             <ReachMax />
