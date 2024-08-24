@@ -10,8 +10,8 @@ export default function Home() {
             <ReachMax />
             <Process />
             <Guarantee />
-            <Marketing />
-            <OurTeam /> */}
+            <Marketing /> */}
+            <OurTeam />
             <Connect />
         </main>
     );
