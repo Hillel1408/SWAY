@@ -6,9 +6,9 @@ export default function Footer() {
     return (
         <footer className="bg-black">
             <div className="_container pt-[30px] pb-[38px]">
-                <div className="flex justify-between items-center mb-[23px]">
+                <div className="flex justify-between items-center mb-[23px] gap-10 md:items-start sm:mb-[46px]">
                     <img src="img/logo-2.svg" alt="" />
-                    <ul className="flex gap-[30px] text-[14px] text-white leading-[17px] uppercase">
+                    <ul className="flex gap-[30px] text-[14px] text-white leading-[17px] uppercase flex-wrap md:flex-col sm:gap-6">
                         {list.map((item, index) => (
                             <li key={index}>{item.text}</li>
                         ))}

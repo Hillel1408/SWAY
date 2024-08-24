@@ -3,7 +3,7 @@ import { Intro, OurWork, Note, AboutUs, ReachMax, Process, Connect, OurTeam, Mar
 export default function Home() {
     return (
         <main className="">
-            <Intro />
+            {/* <Intro />
             <OurWork />
             <Note />
             <AboutUs />
@@ -12,7 +12,7 @@ export default function Home() {
             <Guarantee />
             <Marketing />
             <OurTeam />
-            <Connect />
+            <Connect /> */}
         </main>
     );
 }
