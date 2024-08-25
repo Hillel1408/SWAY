@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/scroll-lock": "^2.1.3",
     "classnames": "^2.5.1",
     "keen-slider": "^6.8.6",
     "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "scroll-lock": "^2.1.5"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -1,6 +1,6 @@
 export default function Guarantee() {
     return (
-        <div className="pb-[130px] max-w-[1440px] mx-auto sm:pb-[74px]">
+        <div className="pb-[130px] max-w-[1440px] mx-auto sm:pb-[74px]" id="guarantee">
             <div className="pl-[98px] grid grid-cols-[1.2fr_1fr] lg:pl-[17px] lg:grid-cols-[1.6fr_1fr] md:grid-cols-[1fr] sm:pl-0">
                 <div className="sm:pl-[17px] sm:mb-[112px]">
                     <h2 className="font-bold text-[36px] leading-[44px] text-black uppercase mb-[9px] sm:text-[30px]">GUARANTEE</h2>

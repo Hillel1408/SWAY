@@ -1,6 +1,6 @@
 export default function ReachMax() {
     return (
-        <div className="_container pb-[130px] md:pb-[74px]">
+        <div className="_container pb-[130px] md:pb-[74px]" id="reach-max">
             <div className="grid grid-cols-2 md:grid-cols-1 gap-[30px]">
                 <div className="pr-[92px] lg:pr-10 md:px-0">
                     <h2 className="font-bold text-[36px] leading-[44px] text-black mb-[9px] uppercase sm:text-[30px]">REACH MAX+</h2>

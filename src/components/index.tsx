@@ -11,5 +11,6 @@ import Guarantee from "@/components/Guarantee/Guarantee";
 import Connect from "@/components/Connect/Connect";
 import OurTeam from "@/components/OurTeam/OurTeam";
 import Marketing from "@/components/Marketing/Marketing";
+import Form from "@/components/Form/Form";
 
-export { Header, Footer, Button, Intro, OurWork, Note, AboutUs, ReachMax, Process, Guarantee, Connect, OurTeam, Marketing };
+export { Header, Footer, Button, Intro, OurWork, Note, AboutUs, ReachMax, Process, Guarantee, Connect, OurTeam, Marketing, Form };

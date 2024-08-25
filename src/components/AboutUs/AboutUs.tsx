@@ -15,7 +15,7 @@ export default function AboutUs() {
     ];
 
     return (
-        <div className="max-w-[1474px] mx-auto pb-[130px] px-[17px] md:pb-[74px]">
+        <div className="max-w-[1474px] mx-auto pb-[130px] px-[17px] md:pb-[74px]" id="about-us">
             <div className="max-w-[1340px] ml-auto grid grid-cols-2 md:grid-cols-1">
                 <div>
                     <h2 className="font-bold text-[36px] leading-[44px] text-black mb-[27px] uppercase md:text-[30px] md:mb-[30px]">about us</h2>

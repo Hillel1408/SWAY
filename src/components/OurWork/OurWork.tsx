@@ -82,7 +82,7 @@ export default function OurWork() {
     ];
 
     return (
-        <div className="_container py-[130px] sm:py-[74px]">
+        <div className="_container py-[130px] sm:py-[74px]" id="our-work">
             <h2 className="font-bold text-[36px] text-center leading-[44px] text-black mb-[23px] uppercase sm:text-[30px] sm:mb-[22px]">Our work</h2>
             <div className="sm:flex sm:flex-col-reverse">
                 {loaded && instanceRef.current && (

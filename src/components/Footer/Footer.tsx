@@ -1,7 +1,14 @@
 import React from "react";
 
 export default function Footer() {
-    const list = [{ text: "Our work" }, { text: "about us" }, { text: "REACH MAX+" }, { text: "PROCESS" }, { text: "GUARANTEE" }, { text: "OUR TEAM" }];
+    const list = [
+        { text: "Our work", href: "#our-work" },
+        { text: "about us", href: "#about-us" },
+        { text: "REACH MAX+", href: "#reach-max" },
+        { text: "PROCESS", href: "#process" },
+        { text: "GUARANTEE", href: "#guarantee" },
+        { text: "OUR TEAM", href: "#our-team" },
+    ];
 
     return (
         <footer className="bg-black">
@@ -10,7 +17,9 @@ export default function Footer() {
                     <img src="img/logo-2.svg" alt="" />
                     <ul className="flex gap-[30px] text-[14px] text-white leading-[17px] uppercase flex-wrap md:flex-col sm:gap-6">
                         {list.map((item, index) => (
-                            <li key={index}>{item.text}</li>
+                            <li key={index}>
+                                <a href={item.href}>{item.text}</a>
+                            </li>
                         ))}
                     </ul>
                 </div>

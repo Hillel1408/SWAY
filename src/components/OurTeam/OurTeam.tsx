@@ -75,7 +75,7 @@ export default function OurTeam() {
     ];
 
     return (
-        <div className="overflow-hidden mt-[130px] md:mt-[74px] sm:mt-0">
+        <div className="overflow-hidden mt-[130px] md:mt-[74px] sm:mt-0" id="our-team">
             <div className="_container pb-[127px] md:pb-[74px]">
                 <h2 className="font-bold text-[36px] leading-[44px] text-black mb-[58px] uppercase sm:text-center sm:text-[30px] sm:mb-[22px]">OUR TEAM</h2>
                 <div className="sm:flex sm:flex-col-reverse sm:gap-6">

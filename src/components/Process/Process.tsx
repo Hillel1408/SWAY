@@ -23,7 +23,7 @@ export default function Process() {
     ];
 
     return (
-        <div className="_container grid grid-cols-2 pb-[130px] md:pb-[74px] md:flex md:flex-col-reverse md:gap-[35px]">
+        <div className="_container grid grid-cols-2 pb-[130px] md:pb-[74px] md:flex md:flex-col-reverse md:gap-[35px]" id="process">
             <div className="pr-[90px] lg:pr-10 md:pr-0 sm:ml-10">
                 <div className="relative">
                     <div className="h-full bg-black pt-[48px] pb-[38px] flex flex-col items-end sm:py-[28px]">
