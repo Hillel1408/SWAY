@@ -9,10 +9,11 @@ export default function Header() {
     const list = [{ text: "Our work" }, { text: "about us" }, { text: "REACH MAX+" }, { text: "PROCESS" }, { text: "GUARANTEE" }, { text: "OUR TEAM" }];
 
     return (
-        <header className="_container py-[15px]">
+        <header className="_container py-[15px] absolute left-0 right-0 md:flex md:justify-between min-w-[375px]">
+            <img src="img/logo.svg" alt="" className="hidden md:block sm:w-[64px]" />
             <div
                 className={classNames(
-                    "flex items-center left-0 right-0 md:fixed md:bg-white md:z-10 md:bottom-0 md:top-0 md:left-0 md:right-0 md:flex-col md:items-start duration-200 md:_container md:py-[15px] md:overflow-auto",
+                    "flex items-center left-0 right-0 md:fixed md:bg-white md:z-20 md:bottom-0 md:top-0 md:left-0 md:right-0 md:flex-col md:items-start duration-200 md:_container md:py-[15px] md:overflow-auto",
                     active ? "md:opacity-100 md:visible" : "md:opacity-0 md:invisible",
                 )}
             >
@@ -29,7 +30,7 @@ export default function Header() {
                     <Button text="GET IN TOUCH" className="text-black bg-white" />
                 </div>
             </div>
-            <button className="hidden md:block ml-auto" onClick={() => setActive(true)}>
+            <button className="hidden md:block ml-auto relative z-10" onClick={() => setActive(true)}>
                 <img src="img/btn-nav-open.svg" alt="" />
             </button>
         </header>

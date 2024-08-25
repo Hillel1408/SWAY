@@ -10,7 +10,7 @@ export default function Connect() {
                 <p className="font-bold text-[22px] leading-[27px] text-[#797979] mb-[70px] sm:text-[18px] sm:mb-[37px]">
                     We would love to hear from you <br /> so please get in touch.
                 </p>
-                <img src="img/img-7.png" alt="" className="sm:hidden" />
+                <img src="img/img-7.png" alt="" className="md:w-full sm:hidden" />
             </div>
             <div className="bg-black px-[47px] pt-[62px] sm:pt-[27px] sm:pl-[24px] sm:pr-[24px]">
                 <form action="#">
