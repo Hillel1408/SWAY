@@ -41,7 +41,15 @@ export default function Header() {
                     <ul className="flex gap-[30px] text-[14px] text-[#797979] leading-[17px] uppercase ml-[55px] flex-wrap md:ml-0 md:flex-col md:gap-[50px]">
                         {list.map((item, index) => (
                             <li key={index}>
-                                <a href={item.href}>{item.text}</a>
+                                <a
+                                    href={item.href}
+                                    onClick={() => {
+                                        setActive(false);
+                                        scrollLock.enablePageScroll();
+                                    }}
+                                >
+                                    {item.text}
+                                </a>
                             </li>
                         ))}
                     </ul>
